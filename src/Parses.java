@@ -5,6 +5,19 @@ public class Parses {
         int parsedNum = Integer.parseInt(String.valueOf(num));
         System.out.println("Parsed integer: " + parsedNum);
 
+        String cadena = "123456789";
+        int parsedCadena = Integer.parseInt(cadena);
+        System.out.println("Parsed integer from string: " + parsedCadena);
+
+        char letra = 'A';
+        int numeroLetra = (int) letra;
+        String letraToString = Character.toString(letra);
+
+        System.out.println("Parsed integer from char: " + numeroLetra);
+        System.out.println("Char to String: " + letraToString); 
+
+
+
         
     }
 
