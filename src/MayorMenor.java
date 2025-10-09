@@ -3,21 +3,34 @@ import java.util.Scanner;
 public class MayorMenor {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+        int mayor = 0;
+        int menor = 0;
         
+        System.out.println("\nMAYOR Y MENOR DE N NUMEROS");
+        System.out.println("===========================\n");
         System.out.println("Cuantos numeros quieres introducir ?");
         int cantidad = entrada.nextInt();
 
-        for (int i = 0; i < 5; i++) {
-            System.out.print("Ingrese un n��mero: ");
+        for (int i = 0; i < cantidad; i++) {
+            System.out.print("Ingrese un numero(" + (i + 1) + "-" + cantidad + ") --> ");
             int numero = entrada.nextInt();
-            
-            if (numero > 100) {
-                System.out.println("El n��mero es mayor que 100.");
-            } else if (numero < 100) {
-                System.out.println("El n��mero es menor que 100.");
+
+            if (i == 0) {
+                mayor = numero;
+                menor = numero;
             } else {
-                System.out.println("El n��mero es igual a 100.");
-            }
+                if (numero > mayor) {
+                    mayor = numero;
+                }
+                if (numero < menor) {
+                    menor = numero;
+                }
+            }   
         }
+
+        System.out.println("\nEl numero mayor es: " + mayor);
+        System.out.println("El numero menor es: " + menor);
+        entrada.close();
+
     }
 }
