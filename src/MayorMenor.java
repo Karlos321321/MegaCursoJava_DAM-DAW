@@ -7,9 +7,11 @@ import java.util.Scanner;
 
 public class MayorMenor {
     public static void main(String[] args) {
+        
         Scanner entrada = new Scanner(System.in);
-        int Maximo = 0;
-        int Minimo = 0;
+        
+        int Maximo = Integer.MIN_VALUE;
+        int Minimo = Integer.MAX_VALUE;
         int contadorMaximo = 1;
         int contadorMinimo = 1;
         String resultado="";
