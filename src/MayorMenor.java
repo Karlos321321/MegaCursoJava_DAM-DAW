@@ -45,11 +45,10 @@ public class MayorMenor {
             }  
         }
 
-        System.out.println("\nEl numero mayor es: " + Maximo);
-        System.out.println("El numero menor es: " + Minimo);
-        
-        System.out.println("\nMayor aparece --> " + contadorMaximo + " veces");
-        System.out.println("Menor aparece --> " + contadorMinimo + " veces");
+        String resultado;
+
+        System.out.println("\nEl numero mayor es: " + Maximo + " y aparece " + contadorMaximo + " " + (resultado = contadorMaximo==1 ? "vez" : "veces"));
+        System.out.println("\nEl numero menor es: " + Minimo + " y aparece " + contadorMinimo + " " + (resultado = contadorMinimo==1 ? "vez" : "veces"));
         
         entrada.close();
     }
