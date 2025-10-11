@@ -1,8 +1,9 @@
 import java.util.Scanner;
-
+//_________________________________________________
 //=================================================
 //PROGRAMA QUE CALCULA EL NUMERO MAYOR Y MENOR !!!!
 //=================================================
+//-------------------------------------------------
 
 public class MayorMenor {
     public static void main(String[] args) {
