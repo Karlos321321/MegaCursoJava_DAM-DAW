@@ -11,6 +11,7 @@ public class MayorMenor {
         int Minimo = 0;
         int contadorMaximo = 1;
         int contadorMinimo = 1;
+        String resultado="";
         
         System.out.println("\nMAYOR Y MENOR DE N NUMEROS");
         System.out.println("===========================\n");
@@ -44,8 +45,6 @@ public class MayorMenor {
                     }
             }  
         }
-
-        String resultado;
 
         System.out.println("\nEl numero mayor es: " + Maximo + " y aparece " + contadorMaximo + " " + (resultado = contadorMaximo==1 ? "vez" : "veces"));
         System.out.println("\nEl numero menor es: " + Minimo + " y aparece " + contadorMinimo + " " + (resultado = contadorMinimo==1 ? "vez" : "veces"));
