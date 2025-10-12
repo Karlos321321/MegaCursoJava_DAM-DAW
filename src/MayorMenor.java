@@ -25,19 +25,15 @@ public class MayorMenor {
         for (int i = 0; i < cantidad; i++) {
             System.out.print("Ingrese un numero(" + (i + 1) + "-" + cantidad + ") --> ");
             int numero = entrada.nextInt();
-           
-            if (i == 0) {
-                Maximo = numero;
-                Minimo = numero;
-            } else {
-                //Nuevo MAximo
+                
+            //Nuevo MAximo
                 if (numero > Maximo) {
                     Maximo = numero;
                     contadorMaximo = 1;
                     //Mismo maximo
                     } else if (numero == Maximo) {
                         contadorMaximo++;
-                    } 
+                        } 
                 //Nuevo Minimo      
                 if (numero < Minimo) {
                     Minimo = numero;
@@ -45,8 +41,7 @@ public class MayorMenor {
                     //Mismo minimo
                     } else if (numero == Minimo) {
                         contadorMinimo++;
-                    }
-            }  
+                        }
         }
 
         System.out.println("\nEl numero mayor es: " + Maximo + " y aparece " + contadorMaximo + " " + (resultado = contadorMaximo==1 ? "vez" : "veces"));
