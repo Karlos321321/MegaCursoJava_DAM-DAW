@@ -1,0 +1,42 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "CuantosDigitos",
+            "request": "launch",
+            "mainClass": "CuantosDigitos",
+            "projectName": "MegaCursoJava_DAM-DAW_40fc8635"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3_Iniciacion",
+            "request": "launch",
+            "mainClass": "Ejercicio3_Iniciacion",
+            "projectName": "MegaCursoJava_DAM-DAW_40fc8635"
+        },
+        {
+            "type": "java",
+            "name": "MayorMenor",
+            "request": "launch",
+            "mainClass": "MayorMenor",
+            "projectName": "MegaCursoJava_DAM-DAW_40fc8635"
+        },
+        {
+            "type": "java",
+            "name": "Parses",
+            "request": "launch",
+            "mainClass": "Parses",
+            "projectName": "MegaCursoJava_DAM-DAW_40fc8635"
+        }
+    ]
+}
