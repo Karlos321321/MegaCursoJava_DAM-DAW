@@ -14,17 +14,15 @@ public class Ejercicio3_Iniciacion {
             System.out.println("Introduce un numero entero positivo ... : ");
             numero = entrada.nextInt();
 
-            if (numero!=0) {
-                numerosIntroducidos += numero + ",";
-                muestraSumaTotal += numero + "+";
+            if (numero!=0) numerosIntroducidos += numero + ",";
+            
+            if (numero!=0 && numero>0) {
+                    muestraSumaTotal += numero + "+";
+                    sumaTotal += numero;
             }
-           
-            if (numero<0) System.out.println("\nNO INTRODUZCAN NUMEROS NEGATIVOS !!!!!\n");
-                else sumaTotal += numero;
         }
 
-        System.out.println("Has introducido un 0, el programa ha terminado\n");
-        System.out.println("Numeros introducidos -->" + numerosIntroducidos + "\b ");
+        System.out.println("Numeros introducidos -->  " + numerosIntroducidos + "\b ");
         System.out.println("Suma Total --> " + muestraSumaTotal + "\b=" + sumaTotal);
         entrada.close();
     }
