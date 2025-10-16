@@ -4,38 +4,37 @@ public class Ejercicio4_Iniciacion {
     public static void main(String[] args) {
 
         Scanner entrada = new Scanner(System.in);
-        int numero=1;
         int sumaCifras=0;
-        int longitud=0;
         int sumaTotal=0;
         String muestraSumaTotal="";
         String numerosIntroducidos="";
+        String numeroString="";
 
         do {
             
             System.out.println("Introduce un numero positivo: ");
-            numero = entrada.nextInt();
+            numeroString = entrada.nextLine();
 
-            if (numero != 0) {
-               numerosIntroducidos += numero + ",";
+            if (Integer.parseInt(numeroString) != 0) {
+                numerosIntroducidos += numeroString + ",";
             }
 
-            String numeroString = String.valueOf(numero);
-            longitud = numeroString.length();
-            
-            for (int i = 0; i < longitud; i++) {
+            for (int i = 0; i < numeroString.length(); i++) {
                 sumaCifras += Character.getNumericValue(numeroString.charAt(i));   
-           }
-
-           if (longitud == sumaCifras && numero > 0) {
-                sumaTotal += numero;
-                muestraSumaTotal += numero + "+";
             }
-                        
-        } while (numero != 0);
 
-        System.out.println("Numeros introducidos -->  " + numerosIntroducidos + "\b ");
-        System.out.println("Suma Total --> " + muestraSumaTotal + "\b=" + sumaTotal);
+            if (numeroString.length()==sumaCifras) {
+                muestraSumaTotal += numeroString + "+";
+                sumaTotal += Integer.parseInt(numeroString);
+            }
+
+            sumaCifras = 0;
+            
+        } while (Integer.parseInt(numeroString) != 0);
+
+        System.out.println("Numeros introducidos: " + numerosIntroducidos + "\b ");
+        System.out.println("Numeros cuya suma de cifras es igual a su longitud: " + muestraSumaTotal + "\b= " + sumaTotal);
+            
         entrada.close();
     }
 }
