@@ -20,7 +20,7 @@ public class Ejercicio4_Iniciacion {
             }
 
             for (int i = 0; i < numeroString.length(); i++) {
-                sumaCifras += Character.getNumericValue(numeroString.charAt(i));   
+                sumaCifras += Character.getNumericValue(numeroString.charAt(i));
             }
 
             if (numeroString.length()==sumaCifras) {

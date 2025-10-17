@@ -12,10 +12,11 @@ public class CuantosDigitos {
 
         while ((numero = numero / 10) != 0) {
             cifras++;
-            sumaCifras += (numero/10);
-        } 
+            sumaCifras += (numero % 10);
+        }
 
         
+
         System.out.println("El numero tiene " + cifras + (cifras==1 ? " digito" : " digitos"));
         System.out.println("La suma de sus cifras es " + sumaCifras);
         entrada.close();
