@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio4_Strings",
+            "request": "launch",
+            "mainClass": "Ejercicio4_Strings",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio3_Strings",
+            "request": "launch",
+            "mainClass": "Ejercicio3_Strings",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2_Strings",
+            "request": "launch",
+            "mainClass": "Ejercicio2_Strings",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1_Strings",
+            "request": "launch",
+            "mainClass": "Ejercicio1_Strings",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio4_Iniciacion_bis",
             "request": "launch",
             "mainClass": "Ejercicio4_Iniciacion_bis",
