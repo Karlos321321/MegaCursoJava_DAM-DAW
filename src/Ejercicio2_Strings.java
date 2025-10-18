@@ -4,18 +4,28 @@ public class Ejercicio2_Strings {
     public static void main(String[] args) {
         
         Scanner entrada = new Scanner(System.in);
-        String palabraMasLarga="";
+        String totalPalabrasIntroducidas="";
+        String PalabrasLongitudMayor="";
+        int longitudMayort=0;
 
         for (int i=0; i<5 ; i++) {
-            System.out.println("Introduce 5 palabras --> ");
-            String palabra = entrada.nextLine();
+            System.out.println("Introduce 5 palabras (" + (i+1) + "-5) --> ");
+            String palabra = entrada.nextLine().trim();
 
-            if (palabra.length() > palabraMasLarga.length()) {
-                palabraMasLarga = palabra;
-            }
+            totalPalabrasIntroducidas += palabra + " , ";
+
+            if (palabra.length() > longitudMayort) {
+                longitudMayort = palabra.length();
+                PalabrasLongitudMayor = palabra;
+            
+            } else if (palabra.length() == longitudMayort) {
+                    PalabrasLongitudMayor += ", " + palabra;
+                }
         }
 
-        System.out.println("La palabra más larga es: " + palabraMasLarga + " y su longitud es: " + palabraMasLarga.length());
+        System.out.println("Palabras Introducidas: " + totalPalabrasIntroducidas);
+        System.out.println("Palabras con longitud mayor (" + longitudMayort + "): " + PalabrasLongitudMayor);
+
         entrada.close();
     }
 }
