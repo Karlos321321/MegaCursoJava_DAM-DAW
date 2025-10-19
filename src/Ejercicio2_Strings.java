@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio2_Strings {
+public class Pruebas_Java {
     public static void main(String[] args) {
         
         Scanner entrada = new Scanner(System.in);
@@ -23,7 +23,7 @@ public class Ejercicio2_Strings {
                 }
         }
 
-        System.out.println("Palabras Introducidas: " + totalPalabrasIntroducidas);
+        System.out.println("Palabras Introducidas: MENSAJE DE PRUEBA" + totalPalabrasIntroducidas);
         System.out.println("Palabras con longitud mayor (" + longitudMayort + "): " + PalabrasLongitudMayor);
 
         entrada.close();
