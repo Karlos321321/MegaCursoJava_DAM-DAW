@@ -23,7 +23,7 @@ public class Pruebas_Java {
                 }
         }
 
-        System.out.println("Palabras Introducidas: MENSAJE DE PRUEBA" + totalPalabrasIntroducidas);
+        System.out.println("Palabras Introducidas: " + totalPalabrasIntroducidas);
         System.out.println("Palabras con longitud mayor (" + longitudMayort + "): " + PalabrasLongitudMayor);
 
         entrada.close();
