@@ -1,3 +1,4 @@
+package Tema2;
 public class Parses {
     public static void main(String[] args) {
         
