@@ -6,6 +6,8 @@ public class Metodos {
         int num1 = 12, num2 = 12;
         int base = 5, altura = 10;
 
+        prueba();
+
         System.out.println("El area del rectangulo es: " + areaRectangulo(base, altura));
 
         if (sumaCondicional(num1, num2) == 0) {
@@ -16,6 +18,11 @@ public class Metodos {
         }
         
     }
+
+    static void prueba() {
+        System.out.println("Este es un metodo de prueba");
+    }z
+
 
     static int suma (int a, int b) {
             return a + b ;

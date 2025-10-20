@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Saludo_1",
+            "request": "launch",
+            "mainClass": "Tema3.Saludo_1",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Menu",
+            "request": "launch",
+            "mainClass": "Tema3.Menu",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "ParImpar",
+            "request": "launch",
+            "mainClass": "Tema3.ParImpar",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "TablaMultiplicar",
+            "request": "launch",
+            "mainClass": "Tema3.TablaMultiplicar",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Multiplicacion_3",
+            "request": "launch",
+            "mainClass": "Tema3.Multiplicacion_3",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "NumeroalCubo_2",
+            "request": "launch",
+            "mainClass": "Tema3.NumeroalCubo_2",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Saludo",
+            "request": "launch",
+            "mainClass": "Tema3.Saludo",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Metodos",
             "request": "launch",
             "mainClass": "Tema3.Metodos",
