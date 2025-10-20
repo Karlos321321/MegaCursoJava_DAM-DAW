@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Metodos",
+            "request": "launch",
+            "mainClass": "Tema3.Metodos",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Prueba_Tema3",
             "request": "launch",
             "mainClass": "Tema3.Prueba_Tema3",
