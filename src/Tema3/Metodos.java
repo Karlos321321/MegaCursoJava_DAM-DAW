@@ -21,7 +21,7 @@ public class Metodos {
 
     static void prueba() {
         System.out.println("Este es un metodo de prueba");
-    }z
+    }
 
 
     static int suma (int a, int b) {
