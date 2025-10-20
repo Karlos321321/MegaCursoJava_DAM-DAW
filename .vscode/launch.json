@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DibujaTriangulo",
+            "request": "launch",
+            "mainClass": "DibujaTriangulo",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "DibujaRectangulo",
+            "request": "launch",
+            "mainClass": "DibujaRectangulo",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Pruebas_Java",
             "request": "launch",
             "mainClass": "Pruebas_Java",
