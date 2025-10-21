@@ -12,5 +12,4 @@ public class PasoPorValor {
     static int doble(int num) {
         return num * 2;
     }
-
 }

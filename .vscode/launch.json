@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Sobrecarga",
+            "request": "launch",
+            "mainClass": "Tema3.Sobrecarga",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "PasoPorValor",
             "request": "launch",
             "mainClass": "Tema3.PasoPorValor",
