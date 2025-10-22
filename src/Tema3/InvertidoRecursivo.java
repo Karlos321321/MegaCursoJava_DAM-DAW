@@ -3,24 +3,19 @@ package Tema3;
 public class InvertidoRecursivo {
     public static void main(String[] args) {
         
-        String numero = "123456789";
-        invertido(numero);
-
-        System.out.println("La cadena " + numero + " invertida es --> " + invertido(numero));
-
-
+       int numero = 123456789;
+       
+       invertido(numero);
     }
 
 
-    static String invertido(String numero){
+    static void invertido(int numero){
 
-        String cadenaInvertida="";
-        for (int i = numero.length()-1; i>=0 ; i--) {
-            cadenaInvertida += numero.charAt(i); 
-        
-        }
-
-        return cadenaInvertida;
+        if (numero>=0 && numero<10) System.out.println(numero);
+            else {
+                System.out.print(numero%10);
+                invertido(numero/10);    
+            }
         
     }
 }
