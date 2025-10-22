@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ElevadoaN_Recursivo",
+            "request": "launch",
+            "mainClass": "Tema3.ElevadoaN_Recursivo",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "CuantosDigitos",
             "request": "launch",
             "mainClass": "Tema2.CuantosDigitos",
