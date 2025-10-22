@@ -1,14 +1,10 @@
 package Tema2;
-import java.util.Scanner;
 
 public class DibujaRectangulo {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
-        int base = scanner.nextInt();
-
-        Scanner scanner2 = new Scanner(System.in);
-        int alto = scanner2.nextInt();
+        int base = 10;
+        int alto = 5;
 
         for (int i = 0; i < alto; i++) {  
             for (int j = 0; j < base; j++) {
@@ -27,8 +23,5 @@ public class DibujaRectangulo {
             }
             System.out.println();
         }
-        
-        scanner.close();
-        scanner2.close();
     }
 }

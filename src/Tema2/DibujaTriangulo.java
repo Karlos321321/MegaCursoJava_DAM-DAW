@@ -1,13 +1,10 @@
 package Tema2;
-import java.util.Scanner;
 
 public class DibujaTriangulo {
     public static void main(String[] args) {
         
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Altura del Triangulo --> ");
-        int altura = scanner.nextInt(); // Altura fija del triángulo
-
+        int altura = 10;
+        
         for (int i = 2; i < altura; i++) {  
             
             for (int j = 0; j <= i; j++) {
@@ -21,7 +18,5 @@ public class DibujaTriangulo {
 
             System.out.println();
         }
-        scanner.close();
     }
-
 }

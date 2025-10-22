@@ -13,9 +13,10 @@ public class Menu {
 
         if (opcion == 1) {
             System.out.println("¡Hola! Bienvenido al programa.");
+            Tema2.DibujaRectangulo.main(null);
         } else if (opcion == 2) {
             int numero = 3;
-            System.out.println("El cubo de " + numero + " es: " + NumeroalCubo_2.calcularCubo(numero));
+            System.out.println("El area del rectangulo es ");
         } else if (opcion == 3) {
             int num1 = 4;
             int num2 = 5;

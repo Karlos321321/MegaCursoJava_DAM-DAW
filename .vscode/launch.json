@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TrianguloRelleno",
+            "request": "launch",
+            "mainClass": "Tema2.TrianguloRelleno",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "DibujaTriangulo",
+            "request": "launch",
+            "mainClass": "Tema2.DibujaTriangulo",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "RectanguloRelleno",
+            "request": "launch",
+            "mainClass": "Tema2.RectanguloRelleno",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "EjercicioRecopilatorio",
+            "request": "launch",
+            "mainClass": "Tema2.EjercicioRecopilatorio",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "DibujaRectangulo",
+            "request": "launch",
+            "mainClass": "Tema2.DibujaRectangulo",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Sobrecarga",
             "request": "launch",
             "mainClass": "Tema3.Sobrecarga",
