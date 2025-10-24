@@ -1,41 +1,45 @@
 package Tema4;
+import java.util.Arrays;
 import java.util.Random;
 
 public class EjemploArrays2 {
     public static void main(String[] args) {
-        
-        //caso1
-        int[] array = {1,2,3,5,15,24,8,6};
-        mostarArray(array);
-
-        //caso2
-        System.out.println();
-        mostrarArraycaso2(crearArray(5));
+        mostrarArraycaso2(crearArray(10 , 100));
     }
 
+    //Mostrar array resultante ordenado
     static void mostrarArraycaso2(int[] n){
+        Arrays.sort(n);
+        System.out.println();
 
         for (int i : n){
-            System.out.print(i + ",");
+            System.out.print("[" + i + "],");
         }
+        System.out.print("\b ");
+        System.out.println("\n");
     }
 
-    //Caso 1 -- Mostrar resultados
-    static void mostarArray(int[] n){
-         for (int i : n) {
-            System.out.print(i + ",");
-        }
-    }
-
-    static int[] crearArray(int elementos){
+    //Crea un Array de numeros Aleatorios sin repeticion 
+    static int[] crearArray(int elementos , int max){
 
         int[] array = new int[elementos];
         Random r = new Random();
 
         for (int i = 0; i < array.length; i++) {
-            array[i] = r.nextInt(100);
+            int numeroAleatorio = r.nextInt(max);
+
+             if (repetido(numeroAleatorio, array)) i--;
+             else array[i] = numeroAleatorio; 
         }
-    
         return array;
+    }
+
+    //Comprueba si el numero esta repetido en el array
+    static boolean repetido (int n , int[] i){
+
+        for (int j = 0; j < i.length; j++){
+            if (i[j] == n) return true;
+        }
+        return false; 
     }
 }
