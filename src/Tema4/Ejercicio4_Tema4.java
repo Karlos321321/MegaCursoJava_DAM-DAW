@@ -5,15 +5,13 @@ public class Ejercicio4_Tema4 {
 
         int[] array = {3,5,5,7,10,30,40};
         int[] array2 = {23,5,8};
-
         mostrarArrayResultante(maximoValor(array, array2));
-        
     }
 
     static void mostrarArrayResultante(int[] array){
         for (int j = 0; j < array.length; j++) {
 
-            System.out.println("Array con los maximos valores por posicion --> " + j);
+            System.out.println("Valor Maximo " + array[j] + " --> posicion " + j);
         }   
     }
 
