@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CompruebaCHAR",
+            "request": "launch",
+            "mainClass": "Tema4.CompruebaCHAR",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio2_Tema4",
+            "request": "launch",
+            "mainClass": "Tema4.Ejercicio2_Tema4",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Ejercicio1_Tema4",
+            "request": "launch",
+            "mainClass": "Tema4.Ejercicio1_Tema4",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "EjemploArrays2",
             "request": "launch",
             "mainClass": "Tema4.EjemploArrays2",

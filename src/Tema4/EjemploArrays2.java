@@ -28,8 +28,8 @@ public class EjemploArrays2 {
         for (int i = 0; i < array.length; i++) {
             int numeroAleatorio = r.nextInt(max);
 
-             if (repetido(numeroAleatorio, array)) i--;
-             else array[i] = numeroAleatorio; 
+            if (repetido(numeroAleatorio, array)) i--;
+            else array[i] = numeroAleatorio; 
         }
         return array;
     }
