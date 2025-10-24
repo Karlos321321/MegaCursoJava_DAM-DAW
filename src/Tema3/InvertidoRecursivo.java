@@ -3,7 +3,7 @@ package Tema3;
 public class InvertidoRecursivo {
     public static void main(String[] args) {
         
-       int numero = 5001;
+       int numero = 1254;
        
        invertido(numero);
     }
