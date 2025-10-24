@@ -1,6 +1,6 @@
 package Tema4;
 
-public class CompruebaCHAR {
+public class Ejercicio3_Tema4 {
     public static void main(String[] args) {
 
         String[] nombres = {"Pepe","Dorotea","PariaDelCarmen","DarlosJavier","FranciscoJose","Possana","Dosalia","Esta es la palabra mas LARGA"};
