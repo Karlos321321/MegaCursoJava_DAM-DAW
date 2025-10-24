@@ -4,7 +4,7 @@ public class ContadorDigitos_Recursivo {
 
     public static void main(String[] args) {
     
-        int n=10;
+        int n=5;
         mostrarDigitos(n);
     }
 
