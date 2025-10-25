@@ -9,6 +9,7 @@ public class MatricesBidimensionales {
         int[][] enteros = { //otra forma de representar la matriz bidimensional
                 {3,4,3,4,5},
                 {4,2,3},
+                {},
                 {12,32,34,4}        
                 };
 

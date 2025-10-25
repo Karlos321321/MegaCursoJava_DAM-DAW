@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BuclesForeach",
+            "request": "launch",
+            "mainClass": "Tema4.BuclesForeach",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "ArrayBidimensionalIrregular",
+            "request": "launch",
+            "mainClass": "Tema4.ArrayBidimensionalIrregular",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "MatricesBidimensionales",
+            "request": "launch",
+            "mainClass": "Tema4.MatricesBidimensionales",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "TablasMultiplicar",
+            "request": "launch",
+            "mainClass": "Tema4.TablasMultiplicar",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio4_Tema4",
             "request": "launch",
             "mainClass": "Tema4.Ejercicio4_Tema4",
