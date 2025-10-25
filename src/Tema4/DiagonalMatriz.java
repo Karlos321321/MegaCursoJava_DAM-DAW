@@ -36,7 +36,6 @@ public class DiagonalMatriz {
                 else diagonal2[i][j]=45;
             }
         }
-
         return diagonal2;
     }
 
@@ -54,7 +53,6 @@ public class DiagonalMatriz {
     
             }
         }
-
         return diagonal;
     }
 }
