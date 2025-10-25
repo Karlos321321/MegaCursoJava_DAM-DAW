@@ -10,7 +10,6 @@ public class Ejercicio4_Tema4 {
 
     static void mostrarArrayResultante(int[] array){
         for (int j = 0; j < array.length; j++) {
-
             System.out.println("Valor Maximo " + array[j] + " --> posicion " + j);
         }   
     }
