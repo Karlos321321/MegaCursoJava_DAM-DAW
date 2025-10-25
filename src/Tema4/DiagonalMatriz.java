@@ -3,31 +3,40 @@ package Tema4;
 public class DiagonalMatriz {
     public static void main(String[] args) {
 
-        int n=10;
+        int n=15;
         imprimirMatrizDiagonal(crearMatriz(n));
         System.out.println();
         imprimirMatrizDiagonal(crearMatrizInvertida(n));
-
     }
 
-    static void imprimirMatrizDiagonal(int[][] matriz){
+    /*static void imprimirMatrizDiagonal(int[][] matriz){
 
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
 
                 char valor = (char) (matriz[i][j]);
-                System.out.print(valor + " ");
-                    
+                System.out.print(valor + " ");    
             }
             System.out.println();
         }
+    }*/
+
+    static void imprimirMatrizDiagonal(int[][] matriz){
+
+        for (int[] fila : matriz) {
+            
+            for (int columna : fila) {
+                char valor = (char) (columna);
+                System.out.print(valor + " ");             
+            }
+        
+        System.out.println();
+       }    
     }
 
     static int[][] crearMatrizInvertida(int n){
 
         int[][] diagonal2 = new int[n][n];
-        char caraterDiagonal = 88;
-        char guion = 45;
 
         for (int i = 0; i < diagonal2.length; i++) {
             for (int j = 0; j < diagonal2[i].length; j++) {
@@ -38,19 +47,16 @@ public class DiagonalMatriz {
         }
         return diagonal2;
     }
-
+    
     static int[][] crearMatriz(int n){
 
         int[][] diagonal = new int[n][n];
-        char caraterDiagonal = 88;
-        char guion = 45;
 
         for (int i = 0; i < diagonal.length; i++) {
             for (int j = 0; j < diagonal[i].length; j++) {
 
                 if(i==j) diagonal[i][j]= 88;
                 else diagonal[i][j]=45;
-    
             }
         }
         return diagonal;

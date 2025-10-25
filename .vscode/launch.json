@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MaximoMinimoMatrices",
+            "request": "launch",
+            "mainClass": "Tema4.MaximoMinimoMatrices",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "DiagonalMatriz",
             "request": "launch",
             "mainClass": "Tema4.DiagonalMatriz",
