@@ -5,6 +5,7 @@ public class DiagonalMatriz {
 
         int n=10;
         imprimirMatrizDiagonal(crearMatriz(n));
+        System.out.println();
         imprimirMatrizDiagonal(crearMatrizInvertida(n));
 
     }
