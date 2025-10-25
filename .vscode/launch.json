@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DiagonalMatriz",
+            "request": "launch",
+            "mainClass": "Tema4.DiagonalMatriz",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "pruebas_Tema4",
+            "request": "launch",
+            "mainClass": "Tema4.pruebas_Tema4",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
+            "name": "Pruebas",
+            "request": "launch",
+            "mainClass": "Tema4.Pruebas",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "BuclesForeach",
             "request": "launch",
             "mainClass": "Tema4.BuclesForeach",
