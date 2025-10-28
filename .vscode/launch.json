@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MatricesIrregulares",
+            "request": "launch",
+            "mainClass": "Tema4.MatricesIrregulares",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "MatrizMaxima",
             "request": "launch",
             "mainClass": "Tema4.MatrizMaxima",
