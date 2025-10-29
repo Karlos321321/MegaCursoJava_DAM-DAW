@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ejercicio1_Tema4",
+            "request": "launch",
+            "mainClass": "Tema4.Ejercicio1_Tema4",
+            "projectName": "MegaCursoJava_DAM-DAW_9f5a27f6"
+        },
+        {
+            "type": "java",
+            "name": "MatrizMaxima",
+            "request": "launch",
+            "mainClass": "Tema4.MatrizMaxima",
+            "projectName": "MegaCursoJava_DAM-DAW_9f5a27f6"
+        },
+        {
+            "type": "java",
+            "name": "TablasMultiplicar",
+            "request": "launch",
+            "mainClass": "Tema4.TablasMultiplicar",
+            "projectName": "MegaCursoJava_DAM-DAW_9f5a27f6"
+        },
+        {
+            "type": "java",
             "name": "MatricesIrregulares",
             "request": "launch",
             "mainClass": "Tema4.MatricesIrregulares",
