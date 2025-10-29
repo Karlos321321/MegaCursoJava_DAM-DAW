@@ -9,6 +9,13 @@
             "name": "MatricesIrregulares",
             "request": "launch",
             "mainClass": "Tema4.MatricesIrregulares",
+            "projectName": "MegaCursoJava_DAM-DAW_9f5a27f6"
+        },
+        {
+            "type": "java",
+            "name": "MatricesIrregulares",
+            "request": "launch",
+            "mainClass": "Tema4.MatricesIrregulares",
             "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
         },
         {

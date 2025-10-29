@@ -4,7 +4,7 @@ public class MatricesIrregulares {
     public static void main(String[] args) {
         
         int[][] matriz1 = {
-            {23}, 
+            {23,12,21}, 
             {10,12,13,34},
             {15,40,46},
             {26,35}
