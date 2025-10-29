@@ -4,19 +4,16 @@ public class MatricesIrregulares {
     public static void main(String[] args) {
         
         int[][] matriz1 = {
-            {23,12,21}, 
-            {10,12,13,34},
-            {15,40,46},
-            {26,35}
+            {1,2}, 
+            {4,5},
+            {10,8}
         };
            
         int[][] matriz2 = {
-            {28}, 
-            {100,12,13,340},
-            {15,40,46},
-            {27,34},
-            {23,23},
-            {1}
+            {5,1,4}, 
+            {6,3},
+            {11},
+            {1,2}
         };
         
         //comprueba si la matriz1 es nula
@@ -98,10 +95,8 @@ public class MatricesIrregulares {
                             if(j<n[i].length) rellenoMaxima[i][j] = (n[i][j]>n2[i][j] ? n[i][j] : n2[i][j]);
                             else rellenoMaxima[i][j] = n[i][j];
                         }
-
                     }
             }
-       
         }
 
         return rellenoMaxima;    
@@ -122,6 +117,8 @@ public class MatricesIrregulares {
                     } else maxima[i] = new int[n[i].length];
                 }
             // que la matriz2 sea mayor
+
+
             } else if (n.length<n2.length) { 
                  for (int i = 0; i < maxima.length; i++) {
                     if(i<n.length){

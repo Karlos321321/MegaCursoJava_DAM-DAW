@@ -4,14 +4,14 @@ public class MatrizMaxima {
     public static void main(String[] args) {
         
         int[][] matriz1 = {
-            {1}, 
-            {8,3,23},
+            {12},
+            {28,23,23},
             {8,12}};
             
         int[][] matriz2 = {
             {4}, 
             {6,10,11}, 
-            {11,6}};
+            {11,32}};
 
         if (matricesIguales(matriz1, matriz2)) impresionMatriz(matrizMaxima(matriz1, matriz2));
             else System.out.println("Las matrices no son iguales y no se pueden comparar !!!!"); 
