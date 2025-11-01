@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bordes_1_linea",
+            "request": "launch",
+            "mainClass": "Tema4.Bordes_1_linea",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "Ejercicio1_Strings",
             "request": "launch",
             "mainClass": "Tema2.Ejercicio1_Strings",
