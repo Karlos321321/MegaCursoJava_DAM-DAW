@@ -21,6 +21,7 @@ public class Pruebas {
 
     static void bordes(String n[]){
         //Determinamos la cadena mas larga
+        
         int lineaMaxima = 0;
         for (String linea : n) {
             if (lineaMaxima < linea.length()) lineaMaxima = linea.length();
