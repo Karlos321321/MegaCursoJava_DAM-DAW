@@ -36,7 +36,7 @@ public class Pruebas {
         for (int i = 0; i < n.length; i++) {
             
             System.out.print(LINEA_VERTICAL);
-            System.out.print("  " + n[i] + " ");œœ 
+            System.out.print("  " + n[i] + " ");
             System.out.println(LINEA_VERTICAL);
 
 
