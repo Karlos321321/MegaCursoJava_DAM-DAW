@@ -16,42 +16,48 @@ public class Pruebas {
                 del año 2006
                 """.toUpperCase();
 
-        bordeSuperior();
-        mostrarTitulo(cadena);
-        
+        bordes(crearCadenaNueva(cadena));
     }
 
-    static void bordeSuperior(){
-
+    static void bordes(String n[]){
+        //Determinamos la cadena mas larga
+        int lineaMaxima = 0;
+        for (String linea : n) {
+            if (lineaMaxima < linea.length()) lineaMaxima = linea.length();
+        }
+        // Borde superior
         System.out.print(ESQUINA_SUPERIOR_IZQUIERDA);
-        for (int i = 0; i < cadenaNueva.length()+3; i++) {
+        for (int i = 0; i < lineaMaxima+3 ; i++) {
             System.out.print(LINEA_HORIZONTAL);
         }
-        System.out.print(ESQUINA_SUPERIOR_DERECHA);
+        System.out.println(ESQUINA_SUPERIOR_DERECHA);
+
+        //linea verticales y texto
+        for (int i = 0; i < n.length; i++) {
+            
+            System.out.print(LINEA_VERTICAL);
+            System.out.print("  " + n[i] + " ");
+            System.out.println(LINEA_VERTICAL);
 
 
-
+        }
     }
 
-    static void mostrarTitulo(String titulo){
 
-        //Detectar la cadena mas larga
-        int cadenaMasLarga = 0;
+    static String[] crearCadenaNueva(String titulo){
 
         String[] lineas = titulo.split("\\n");
 
-       for (int i = 0; i < lineas.length; i++) {
-            String cadenaNueva = "";
-            //longitud de cada fila
-            //System.out.println(lineas[i].length() );
-            //creando filas nuevas con espacios
-            for (int j = 0; j < lineas[i].length(); j++) {
-                 cadenaNueva += lineas[i].charAt(j) + " ";
-            }
-
-            System.out.println(cadenaNueva);
-       }
+        for (int i = 0; i < lineas.length; i++) {
+                String cadenaNueva="";
+                //creando filas nuevas con espacios
+                for (int j = 0; j < lineas[i].length(); j++) {
+                    cadenaNueva += lineas[i].charAt(j) + "  ";
+                }
+                //creo el nuevo array
+                lineas[i] = cadenaNueva;
+        }
+        //devuelvo el array con la cadena nueva en mayusculas y con espacios
+        return lineas;
     }
-
-
 }
