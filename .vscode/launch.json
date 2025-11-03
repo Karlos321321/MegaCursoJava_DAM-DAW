@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Borde2_variaslineas",
+            "request": "launch",
+            "mainClass": "Tema4.Borde2_variaslineas",
+            "projectName": "MegaCursoJava_DAM-DAW_2f1c5924"
+        },
+        {
+            "type": "java",
             "name": "ArrayConBordes",
             "request": "launch",
             "mainClass": "Tema4.ArrayConBordes",

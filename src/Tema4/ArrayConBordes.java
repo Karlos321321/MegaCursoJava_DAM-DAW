@@ -12,7 +12,7 @@ public class ArrayConBordes {
     static final char SEPARADOR_INFERIOR = '╩';
 
     public static void main(String[] args) {
-        int[] numeros = {1,2145,111,15,3,345,345345345};
+        int[] numeros = {1,2145,111,-15,3,345,-345345345};
         mostrarArray(numeros);
     }
 
@@ -28,7 +28,9 @@ public class ArrayConBordes {
         System.out.print(esquina);
         
         for (int i = 0; i < n.length; i++) {
-            separador = digitos(n[i])+3;
+
+            if (n[i]<0) separador = digitos(n[i])+4;
+            else separador = digitos(n[i])+3;
             
             for (int j = 0; j < separador; j++) {
                 if (j!=separador-1) System.out.print(LINEA_HORIZONTAL);
