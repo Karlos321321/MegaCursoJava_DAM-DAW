@@ -20,7 +20,7 @@ public class ArrayConBordes {
         if (n==0) return 0;
         else return 1 + digitos(n/10);
     }
-
+    //Imprimir los bordes
     static void bordes (int n[] , int b){
 
         int separador = 0;
