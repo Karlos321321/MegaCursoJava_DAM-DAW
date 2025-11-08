@@ -12,7 +12,7 @@ public class ArrayConBordes {
     static final char SEPARADOR_INFERIOR = '╩';
 
     public static void main(String[] args) {
-        int[] numeros = {1,2145,111,-15,3,345,-345345345};
+        int[] numeros = {23,2145,111,-15,3,345,-345345345};
         mostrarArray(numeros);
     }
 
