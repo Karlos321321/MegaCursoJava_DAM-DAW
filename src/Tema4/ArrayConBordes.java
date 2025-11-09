@@ -1,5 +1,6 @@
 package Tema4;
 
+//Programa modificado en windows
 public class ArrayConBordes {
 
     static final char ESQUINA_SUPERIOR_IZQUIERDA = '╔';
