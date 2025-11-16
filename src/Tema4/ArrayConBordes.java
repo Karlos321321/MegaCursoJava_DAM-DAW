@@ -3,6 +3,7 @@ package Tema4;
 //Programa modificado en windows
 public class ArrayConBordes {
 
+    //Prueba de modificacion
     static final char ESQUINA_SUPERIOR_IZQUIERDA = '╔';
     static final char ESQUINA_SUPERIOR_DERECHA = '╗';
     static final char ESQUINA_INFERIOR_IZQUIERDA = '╚';
